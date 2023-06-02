@@ -3,7 +3,7 @@
 $botToken = 'SEU_TOKEN_BOT';
 $botName = 'NOME_DO_BOT';
 
-// Mensagem recebida do usuário
+
 $update = json_decode(file_get_contents('php://input'), TRUE);
 $message = $update['message']['text'];
 $chatId = $update['message']['chat']['id'];
